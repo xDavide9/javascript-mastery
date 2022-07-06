@@ -1,0 +1,13 @@
+in order to test with jest you have to install it 
+either globally with npm i -g jest or locally npm i --save-dev jest
+
+then modify the npm test script entry in package.json with "test": "jest"
+
+then you have to create a folder names __tests__ and inside it have your tests
+as files ending with .test.js 
+
+then you can run tests in different ways: npm run test, npm test, jest or vscode integrations
+
+something important is that you have to follow the same directory structure when testing
+
+there is a babel plugin and file used to configure jest to use es imports

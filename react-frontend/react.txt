@@ -1,0 +1,5 @@
+react is based on a hierarchy or components that are rendered on the page
+the virtualdom which is a lightweight rappresentation of the realdom made by react is used to keep track of the changes in the state of these components so that react can update them automatically
+react is just a library that takes care of updating the components when their state changes (and not a framework like angular) and therefore we should rely on other libraries to effectly build a webpage (like boostrap (css library), material ui for already created components, antd still for components)
+mui: https://mui.com/material-ui/getting-started/overview/
+

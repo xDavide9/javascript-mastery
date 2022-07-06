@@ -1,0 +1,11 @@
+NPM
+npm (node package manager) is a platform where packages are stored
+a package is js code that can thefore be reused
+npm comes bundled when you download node
+
+there are 3 essential commands when working with npm and they are
+npm init
+npm install or npm i
+npm run
+
+

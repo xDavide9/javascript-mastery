@@ -1,0 +1,26 @@
+https://docs.npmjs.com/cli/v8/using-npm/scripts
+
+when you run npm install or npm scripts what is happening behind the scenes
+is that there is an entire lifecycle behind each script with pre and post script
+
+now you don't care about those scripts really because they are already defined by npm
+and are good to go 
+
+what you care about is the scripts that are specified in the package.json and that can
+be run with npm run 
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+this is the defalt scripts entry where you only have one script which does nothing basically
+but you can run it with npm run test
+
+you can create your own scripts
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "echo \"foo\" && exit 1"
+  }
+
+this is the main concept now there are a lot of scripts implemented by libraries like react etc

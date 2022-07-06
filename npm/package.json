@@ -1,0 +1,22 @@
+{
+  "name": "js-course",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "echo \"foo\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "npm"
+  ],
+  "author": "xDavide9",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0"
+  }
+}

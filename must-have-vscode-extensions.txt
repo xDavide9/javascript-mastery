@@ -1,0 +1,23 @@
+-code runner
+-eslint (install it globally with npm i -g eslint or smt)
+-prettier (formats your code beautifully and just need to set it as the default fomarmatter)
+
+settings: 
+{
+  // editor
+  "editor.fontSize": 22,
+  "editor.minimap.enabled": false,
+
+  // code runner
+  "code-runner.clearPreviousOutput": true,
+
+  // explorer
+  "explorer.compactFolders": false,
+
+  // prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // zoom
+  "window.zoomLevel": 1
+}

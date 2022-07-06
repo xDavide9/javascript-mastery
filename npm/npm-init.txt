@@ -1,0 +1,8 @@
+in order to create a package you have to run npm init
+this will guide you through the creating of the package.json file
+asking you questions
+in this file you can find all the configuration regarding the package
+like information, scripts, dependencies and you can specify if you want to use es modules with "type": "module"
+in order to use es modules instead of commonjs
+you can also create init the package with npm init --yes or npm init -y
+that will just accept all the default values when creating the package.json
